@@ -7,8 +7,8 @@
   "globals_path" : "",
 
   "selenium" : {
-    "start_process" : true,
-    "server_path" : "selenium-server-standalone-2.47.1.jar",
+    "start_process" : false,
+    "server_path" : "selenium-server-standalone-3.14.0.jar",
     "log_path" : "",
     "port" : 4444,
     "cli_args" : {
@@ -20,9 +20,10 @@
 
   "test_settings" : {
     "default" : {
+      "use_ssl": true,
       "launch_url" : "http://localhost",
-      "selenium_port"  : 4444,
-      "selenium_host"  : "localhost",
+      "selenium_host"  : "da.hub.test.expedia.com",
+      "selenium_port" : 4444,
       "silent": true,
       "screenshots" : {
         "enabled" : false,

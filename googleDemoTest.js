@@ -6,6 +6,9 @@
  */
 
 module.exports = {
+    before : function(browser) {
+        console.log('Setting up',browser);
+    },
   'demo test google' : function (client) {
     client
       .url('http://google.com')
