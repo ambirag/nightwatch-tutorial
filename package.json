@@ -21,6 +21,6 @@
   "homepage": "https://github.com/sharadJay/nightwatch-tutorial#readme",
   "dependencies": {
     "chromedriver": "^2.30.1",
-    "nightwatch": "git+https://github.com/sharadJay/nightwatch.git"
-  }
+    "nightwatch": "^0.9.16" 
+ }
 }
