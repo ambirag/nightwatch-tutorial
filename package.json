@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sharadJay/nightwatch-tutorial.git"
+    "url": "git+https://github.com/ambirag/nightwatch-tutorial.git"
   },
   "keywords": [
     "nightwatchjs"
@@ -16,11 +16,11 @@
   "author": "shjain",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sharadJay/nightwatch-tutorial/issues"
+    "url": "https://github.com/ambirag/nightwatch-tutorial/issues"
   },
-  "homepage": "https://github.com/sharadJay/nightwatch-tutorial#readme",
-  "dependencies": {
+  "homepage": "https://github.com/ambirag/nightwatch-tutorial#readme",
+  "devDependencies": {
     "chromedriver": "^2.30.1",
-    "nightwatch": "^0.9.16" 
+    "nightwatch": "^0.9.20" 
  }
 }
