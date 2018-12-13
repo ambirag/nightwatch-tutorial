@@ -22,7 +22,7 @@
     "default" : {
       "use_ssl": true,
       "launch_url" : "http://localhost",
-      "selenium_host"  : "da.hub.test.expedia.com",
+      "selenium_host"  : "da-master.hub.test.expedia.com",
       "selenium_port" : 443,
       "silent": true,
       "screenshots" : {
